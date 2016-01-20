@@ -14,6 +14,7 @@ do
 	  fi
 	  mv $entry $newName
 	  mv $newName $folderName/$subFolder
+	  echo "Archivo movido: "+"$entry"
   fi
 done
 

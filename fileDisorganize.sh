@@ -4,7 +4,6 @@ do
         for subdirs in $entry/*
         do	
 			if [ -d "$subdirs" ];then
-				echo "$subdirs"
 				for files in $subdirs/*.*
 				do
 					if [ -f "$files" ];then
